@@ -72,6 +72,9 @@ if(CPP_STARTER_USE_SDL)
   # set(CONAN_EXTRA_OPTIONS ${CONAN_EXTRA_OPTIONS} sdl2:wayland=True)
 endif()
 
+set(CONAN_EXTRA_REQUIRES ${CONAN_EXTRA_REQUIRES} gsl_microsoft/2.0.0@bincrafters/stable)
+
+
 include(cmake/Conan.cmake)
 run_conan()
 
