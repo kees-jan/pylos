@@ -1,0 +1,3 @@
+[submodule "cppcoro"]
+	path = cppcoro
+	url = git@github.com:andreasbuhr/cppcoro.git

@@ -90,6 +90,7 @@ if(ENABLE_FUZZING)
 endif()
 
 add_subdirectory(src)
+add_subdirectory(cppcoro)
 add_subdirectory(pylos)
 
 option(ENABLE_UNITY "Enable Unity builds of projects" OFF)

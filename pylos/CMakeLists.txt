@@ -6,7 +6,7 @@ else()
 endif()
 
 add_executable(pylos-tests test/test_move.cc)
-target_link_libraries(pylos-tests PRIVATE project_warnings project_options catch_main CONAN_PKG::gsl_microsoft)
+target_link_libraries(pylos-tests PRIVATE project_warnings project_options catch_main CONAN_PKG::gsl_microsoft cppcoro)
 
 # automatically discover tests that are defined in catch based test files you can modify the unittests. Set TEST_PREFIX
 # to whatever you want, or use different for different binaries
